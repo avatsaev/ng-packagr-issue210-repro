@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
+  "src": "src/app/lib",
+  "dest": "dist/lib",
+  "lib": {
+    "entryFile": "index.ts",
+    "externals": {
+      "videogular2/core": "videogular2/core",
+      "videogular2/controls": "videogular2/controls",
+      "videogular2/overlay-play": "videogular2/overlay-play",
+      "videogular2/buffering": "videogular2/buffering"
+    }
+  }
+}
